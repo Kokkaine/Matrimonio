@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Весілля Макса і Дарії</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <div class="language-button">
+    <a href="index.html">
+      <button href="index.html" class="italiano">Італійська</button>
+    </a>
+    <a href="ucraino.html">
+      <button href="ucraino.html" class="ucraino">Українська</button>
+    </a>
+  </div>
+
+  <header>
+    <img src="img/mdl.jpg" alt="Весілля Макса і Дарії" class="header-image">
+    <div class="container">
+      <h3 id="headline">27 квітня 2024 року</h3>
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>Днів</li>
+          <li><span id="hours"></span>Годин</li>
+          <li><span id="minutes"></span>Хвилин</li>
+          <li><span id="seconds"></span>Секунд</li>
+        </ul>
+      </div>
+      <div id="content" class="emoji">
+        <span>🥳</span>
+        <span>🎉</span>
+        <span>🎂</span>
+      </div>
+      <div class="header-names">Весілля Макса і Дарії</div>
+      <div class="header-message">Ми раді поділитися з вами радістю унікального дня для нас: дня нашого весілля.</div>
+    </div>
+  </header>
+
+  <div class="event-container">
+    <div class="event">
+      <p class="event-time">11:30</p>
+      <p class="event-title">Завоювання Вершини</p>
+      <p>Досягаючи вершини, ви отримуєте панораму, ви отримуєте вид.</p>
+      <p>Підйом можливий <b>ТІЛЬКИ у кросівках</b>, тому візьміть з собою змінну взуття. У разі дощу церемонія
+        відбудеться в муніципальній залі Guiglia.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">12:00</p>
+      <p class="event-title">Церемонія</p>
+      <p>Візьміть з собою посмішку та дозвольте собі зануритися у радість і ентузіазм цього особливого дня!</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">13:30</p>
+      <p class="event-title">Спогади</p>
+      <p>Збережемо цей день за допомогою фотографій та відео</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">14.30+</p>
+      <p class="event-title">Відпочинок</p>
+      <p>Пиво та бокал вина під скалою.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">17:00</p>
+      <p class="event-title">Аперитив</p>
+      <p>Бенкет перед вечерею з аперитивом.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">19:30</p>
+      <p class="event-title">Вечеря</p>
+      <p>Час їсти, танцювати та веселитися.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">23:00</p>
+      <p class="event-title">Торт</p>
+      <p>Час розрізати весільний торт, вперед до цукрів.</p>
+    </div>
+
+  </div>
+
+  <div class="luoghi-container">
+    <h2>Місця</h2>
+    <ul class="luoghi-list">
+      <li class="restaurant-li"
+        style="background-image: url('https://www.parks.it/parco.sassi.roccamalatina/foto/sassi.solmiriccardo-800.jpeg');">
+        <a href="https://www.google.com/maps?q=44.3894965,10.9502405" target="_blank">
+          <button class="location-button" alt="Місце Церемонії">Місце Церемонії</button>
+        </a>
+      </li>
+      <li class="restaurant-li"
+        style="background-image: url('https://img.restaurantguru.com/r547-Ristorante-Ginevra-exterior.jpg');">
+        <a href="https://www.google.com/maps?hl=it&gl=it&um=1&ie=UTF-8&fb=1&sa=X&geocode=KU8JEh4qyCoTMUz9OJMLeQLc&daddr=Via+Vignolese,+3323,+41059+Montecorone+MO"
+          target="_blank">
+          <button class="location-button" alt="Місце Ресторану">Місце Ресторану</button>
+        </a>
+      </li>
+    </ul>
+
+    <div class="hotel-container">
+      <h2 onclick="toggleHotelInfo()" role="button" aria-expanded="false">Готель</h2>
+      <div class="hotel-info hidden" aria-hidden="true">
+        <p>Місце, де ви зможете відпочити після свята. Забронюйте номер і насолоджуйтесь ніччю відпочинку.</p>
+        <p><strong>Номери - ціна за двох осіб зі сніданком:</strong></p>
+        <ul class="room-list">
+          <li><strong>Сюїта Альбачара з сауною</strong> - € 170,00</li>
+          <li><strong>Дитяча сюїта Ангели</strong> - номер більший, ніж стандартний, з подвійною раковиною і подвійним
+            душем - € 110,00</li>
+          <li><strong>Стандартний номер з видом на долину</strong> - € 95,00</li>
+          <li><strong>Стандартний номер з видом на вулицю</strong> - € 85,00</li>
+        </ul>
+        <p>Готель знаходиться за 100 м від ресторану.</p>
+        <div class="hotel-link">
+          <a href="https://relaisginevra.it/" target="_blank">
+            <button class="location-button" alt="Сайт Готелю">Сайт Готелю</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dress-code-container">
+    <h2>Дрес-код</h2>
+    <p>Ви будете душею вечора, якщо вашому вбранню присутній колір нашої палітри.</p>
+    <p>Кольори природи вітаються.</p>
+    <div class="color-options">
+      <span class="color-option"></span>
+      <span class="color-option"></span>
+      <span class="color-option"></span>
+      <span class="color-option"></span>
+      <span class="color-option"></span>
+    </div>
+    <p><b>Білий та чорний не приймаються</b></p>
+  </div>
+
+  <div class="participation-container">
+    <h2>Ваша Участь</h2>
+    <p>Ми будемо дуже раді вас бачити!</p>
+    <p>Ми вас люб'язно просимо підтвердити вашу присутність до <b>31.03.2024</b>.</p>
+  </div>
+
+  <div class="form-container">
+    <div class="form-group">
+      <label for="name" class="form-label">Ім'я + Загальна Інформація</label>
+      <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я та прізвище">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Ви будете присутні?</label>
+      <div class="option-container">
+        <input type="radio" id="present" name="attendance" class="option-input" value="Буду присутній!">
+        <label for="present" class="option-label">Буду присутній!</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="obviously" name="attendance" class="option-input" value="Звичайно, буду присутній!">
+        <label for="obviously" class="option-label">Звичайно, буду присутній!</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="poor" name="attendance" class="option-input" value="Не прийду через бідність!">
+        <label for="poor" class="option-label">Не прийду через бідність!</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Алкогольні уподобання?</label>
+      <div class="option-container">
+        <input type="radio" id="prosecco" name="alcohol" class="option-input" value="Прошеко">
+        <label for="prosecco" class="option-label">Просекко</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="whiteWine" name="alcohol" class="option-input" value="Біле вино">
+        <label for="whiteWine" class="option-label">Біле вино</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="redWine" name="alcohol" class="option-input" value="Червоне вино столове">
+        <label for="redWine" class="option-label">Червоне вино столове</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="sparklingRedWine" name="alcohol" class="option-input" value="Шампанське червоне">
+        <label for="sparklingRedWine" class="option-label">Шампанське червоне</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="water" name="alcohol" class="option-input" value="Прозора вода зі смаком вина">
+        <label for="water" class="option-label">Прозора вода зі смаком вина</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="spirits" name="alcohol" class="option-input" value="Спиртні напої">
+        <label for="spirits" class="option-label">Спиртні напої, для добиву</label>
+      </div>
+    </div>
+    <button class="submit-button" onclick="submitForm()">Надіслати</button>
+  </div>
+
+  <script>
+    (function () {
+      const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+      const birthday = new Date("April 27, 2024 12:00:00").getTime();
+
+      const x = setInterval(function () {
+        const now = new Date().getTime(),
+          distance = birthday - now;
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "Мій день народження!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+      }, 0)
+    }());
+
+    function toggleHotelInfo() {
+      var hotelInfo = document.querySelector('.hotel-info');
+      var hotelHeading = document.querySelector('.hotel-container h2');
+      var expanded = hotelHeading.getAttribute('aria-expanded') === 'true' || false;
+      hotelInfo.classList.toggle('hidden');
+      hotelHeading.setAttribute('aria-expanded', !expanded);
+      hotelInfo.setAttribute('aria-hidden', expanded);
+    }
+
+    function submitForm() {
+      var name = document.getElementById("name").value;
+      var attendanceOptions = document.getElementsByName("attendance");
+      var attendance;
+      for (var i = 0; i < attendanceOptions.length; i++) {
+        if (attendanceOptions[i].checked) {
+          attendance = attendanceOptions[i].value;
+          break;
+        }
+      }
+      var alcoholOptions = document.getElementsByName("alcohol");
+      var alcohol;
+      for (var i = 0; i < alcoholOptions.length; i++) {
+        if (alcoholOptions[i].checked) {
+          alcohol = alcoholOptions[i].value;
+          break;
+        }
+      }
+      if (name && attendance && alcohol) {
+        var emailContent = "Ім'я та Прізвище: " + name + "\n" + "Присутність: " + attendance + "\n" + "Алкогольні уподобання: " + alcohol;
+        window.location.href = "mailto:ihexadecane@gmail.com?subject=Підтвердження%20Участі&body=" + encodeURIComponent(emailContent);
+      } else {
+        alert("Будь ласка, заповніть усі поля перед відправленням форми.");
+      }
+    }
+  </script>
+</body>
+
+</html>

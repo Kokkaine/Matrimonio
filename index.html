@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrimonio di Max e Daria</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body>
+  <div class="language-button">
+    <a href="index.html">
+      <button href="index.html" class="italiano">Italiano</button>
+    </a>
+    <a href="ucraino.html">
+      <button href="ucraino.html" class="ucraino">Українська</button>
+    </a>
+  </div>
+
+  <header>
+    <img src="img/mdl.jpg" alt="Matrimonio di Max e Daria" class="header-image">
+    <div class="container">
+      <h3 id="headline">27 aprile 2024</h3>
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>Giorni</li>
+          <li><span id="hours"></span>Ore</li>
+          <li><span id="minutes"></span>Minuti</li>
+          <li><span id="seconds"></span>Secondi</li>
+        </ul>
+      </div>
+      <div id="content" class="emoji">
+        <span>🥳</span>
+        <span>🎉</span>
+        <span>🎂</span>
+      </div>
+      <div class="header-names">Matrimonio di Max e Daria</div>
+      <div class="header-message">Siamo entusiasti di condividere con voi la gioia di un giorno unico per noi: il giorno
+        del nostro matrimonio.</div>
+    </div>
+  </header>
+
+  <div class="event-container">
+    <div class="event">
+      <p class="event-time">11:30</p>
+      <p class="event-title">La Salita</p>
+      <p>Raggiungendo la cima si ottiene il panorama, si ottiene la vista.</p>
+      <p>La salita è fattibile <b>SOLO con le scarpe da ginnastica</b>, quindi portarsi le scarpe di ricambio. In caso
+        di pioggia, la cerimonia si terrà nella sala comunale di Guiglia.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">12:00</p>
+      <p class="event-title">La Cerimonia</p>
+      <p>Porta con te il sorriso e lasciati trasportare dalla gioia e dall'entusiasmo di questo giorno speciale!</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">13:30</p>
+      <p class="event-title">La Memoria</p>
+      <p>Ricordiamo questo giorno con le foto e i video, con un bel ristoro nella locanda di sotto.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">14.30+</p>
+      <p class="event-title">Il Ristoro</p>
+      <p>Una birra e un calice di vino sotto la Rocca.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">17:00</p>
+      <p class="event-title">L'Aperitivo</p>
+      <p>Il banchetto pre-cena con aperitivo.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">19:30</p>
+      <p class="event-title">La Cena</p>
+      <p>Il momento giusto per mangiare, ballare e divertirsi.</p>
+    </div>
+
+    <div class="event">
+      <p class="event-time">23:00</p>
+      <p class="event-title">La Torta</p>
+      <p>È il momento del taglio della torta nuziale, avanti gli zuccheri.</p>
+    </div>
+
+  </div>
+
+  <div class="luoghi-container">
+    <h2>Luoghi</h2>
+    <ul class="luoghi-list">
+      <li class="restaurant-li"
+        style="background-image: url('https://www.parks.it/parco.sassi.roccamalatina/foto/sassi.solmiriccardo-800.jpeg');">
+        <a href="https://www.google.com/maps?q=44.3894965,10.9502405" target="_blank">
+          <button class="location-button" alt="Posizione Cerimonia">Posizione Cerimonia</button>
+        </a>
+      </li>
+      <li class="restaurant-li"
+        style="background-image: url('https://img.restaurantguru.com/r547-Ristorante-Ginevra-exterior.jpg');">
+        <a href="https://www.google.com/maps?hl=it&gl=it&um=1&ie=UTF-8&fb=1&sa=X&geocode=KU8JEh4qyCoTMUz9OJMLeQLc&daddr=Via+Vignolese,+3323,+41059+Montecorone+MO"
+          target="_blank">
+          <button class="location-button" alt="Posizione Ristorante">Posizione Ristorante</button>
+        </a>
+      </li>
+    </ul>
+
+    <div class="hotel-container">
+      <h2 onclick="toggleHotelInfo()" role="button" aria-expanded="false">Hotel</h2>
+      <div class="hotel-info hidden" aria-hidden="true">
+        <p>Un luogo dove potrete riposarvi dopo la festa. Prenotate una stanza e godetevi una notte di relax.</p>
+        <p><strong>Camere - prezzo per due persone comprensivo di prima colazione:</strong></p>
+        <ul class="room-list">
+          <li><strong>Suite Albachiara con doccia sauna</strong> - € 170,00</li>
+          <li><strong>Baby suite gli Angeli</strong> - camera più spaziosa delle standard, con doppio lavabo e doppia
+            doccia - € 110,00</li>
+          <li><strong>Camera standard verso vallata</strong> - € 95,00</li>
+          <li><strong>Camera standard verso strada</strong> - € 85,00</li>
+        </ul>
+        <p>L'hotel si trova a 100 m dal ristorante.</p>
+        <div class="hotel-link">
+          <a href="https://relaisginevra.it/" target="_blank">
+            <button class="location-button" alt="Sito Hotel">Sito Hotel</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="dress-code-container">
+    <h2>Dress Code</h2>
+    <p>Sarete l'anima della serata se nel vostro abbigliamento sarà presente il colore della nostra palette.</p>
+    <p>Sono ben accetti i colori della natura.</p>
+    <div class="color-options">
+      <span class="color-option"></span>
+      <span class="color-option"></span>
+      <span class="color-option"></span>
+      <span class="color-option"></span>
+      <span class="color-option"></span>
+    </div>
+    <p><b>No bianco e nero</b></p>
+  </div>
+
+  <div class="participation-container">
+    <h2>La Vostra Partecipazione</h2>
+    <p>Saremo molto felici di vedervi!</p>
+    <p>Vi chiediamo gentilmente di confermare la vostra presenza entro il <b>31.03.2024</b>.</p>
+  </div>
+
+  <div class="form-container">
+    <div class="form-group">
+      <label for="name" class="form-label">Nome + Info Generale</label>
+      <input type="text" id="name" name="name" placeholder="Inserisci il tuo nome e cognome">
+    </div>
+    <div class="form-group">
+      <label class="form-label">Sarai presente?</label>
+      <div class="option-container">
+        <input type="radio" id="present" name="attendance" class="option-input" value="Sarò presente!">
+        <label for="present" class="option-label">Sarò presente!</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="obviously" name="attendance" class="option-input" value="Ovviamente sarò presente!">
+        <label for="obviously" class="option-label">Ovviamente sarò presente!</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="poor" name="attendance" class="option-input" value="Non vengo perché sono povero!">
+        <label for="poor" class="option-label">Non vengo perché sono povero!</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="form-label">Preferenze alcoliche?</label>
+      <div class="option-container">
+        <input type="radio" id="prosecco" name="alcohol" class="option-input" value="Prosecco">
+        <label for="prosecco" class="option-label">Prosecco</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="whiteWine" name="alcohol" class="option-input" value="Vino bianco">
+        <label for="whiteWine" class="option-label">Vino bianco</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="redWine" name="alcohol" class="option-input" value="Vino rosso fermo">
+        <label for="redWine" class="option-label">Vino rosso fermo</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="sparklingRedWine" name="alcohol" class="option-input" value="Vino rosso frizzante">
+        <label for="sparklingRedWine" class="option-label">Vino rosso frizzante</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="water" name="alcohol" class="option-input" value="Acqua trasparente al gusto di vino">
+        <label for="water" class="option-label">Acqua trasparente al gusto di vino</label>
+      </div>
+      <div class="option-container">
+        <input type="radio" id="spirits" name="alcohol" class="option-input" value="Superalcolici">
+        <label for="spirits" class="option-label">Superalcolici</label>
+      </div>
+    </div>
+    <button class="submit-button" onclick="submitForm()">Invia</button>
+  </div>
+
+  <script>
+    (function () {
+      const second = 1000,
+        minute = second * 60,
+        hour = minute * 60,
+        day = hour * 24;
+
+      const birthday = new Date("April 27, 2024 12:00:00").getTime();
+
+      const x = setInterval(function () {
+        const now = new Date().getTime(),
+          distance = birthday - now;
+        document.getElementById("days").innerText = Math.floor(distance / (day)),
+          document.getElementById("hours").innerText = Math.floor((distance % (day)) / (hour)),
+          document.getElementById("minutes").innerText = Math.floor((distance % (hour)) / (minute)),
+          document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
+
+        if (distance < 0) {
+          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("countdown").style.display = "none";
+          document.getElementById("content").style.display = "block";
+          clearInterval(x);
+        }
+      }, 0)
+    }());
+
+    function toggleHotelInfo() {
+      var hotelInfo = document.querySelector('.hotel-info');
+      var hotelHeading = document.querySelector('.hotel-container h2');
+      var expanded = hotelHeading.getAttribute('aria-expanded') === 'true' || false;
+      hotelInfo.classList.toggle('hidden');
+      hotelHeading.setAttribute('aria-expanded', !expanded);
+      hotelInfo.setAttribute('aria-hidden', expanded);
+    }
+
+    function submitForm() {
+      var name = document.getElementById("name").value;
+      var attendanceOptions = document.getElementsByName("attendance");
+      var attendance;
+      for (var i = 0; i < attendanceOptions.length; i++) {
+        if (attendanceOptions[i].checked) {
+          attendance = attendanceOptions[i].value;
+          break;
+        }
+      }
+      var alcoholOptions = document.getElementsByName("alcohol");
+      var alcohol;
+      for (var i = 0; i < alcoholOptions.length; i++) {
+        if (alcoholOptions[i].checked) {
+          alcohol = alcoholOptions[i].value;
+          break;
+        }
+      }
+      if (name && attendance && alcohol) {
+        var emailContent = "Nome e Cognome: " + name + "\n" + "Partecipazione: " + attendance + "\n" + "Preferenze alcoliche: " + alcohol;
+        window.location.href = "mailto:ihexadecane@gmail.com?subject=Conferma%20Partecipazione&body=" + encodeURIComponent(emailContent);
+      } else {
+        alert("Per favore, compila tutti i campi prima di inviare il modulo.");
+      }
+    }
+  </script>
+</body>
+
+</html>
